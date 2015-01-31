@@ -1,0 +1,37 @@
+{
+  "name": "feathers-accounts",
+  "version": "0.0.1",
+  "description": "User Account System for FeathersJS",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Marshall Thompson",
+    "email": "marshall@creativeideal.net",
+    "url": "https://github.com/marshallswain"
+  },
+  "license": "MIT",
+  "keywords": [
+    "feathers",
+    "REST",
+    "Socket.io",
+    "real-time",
+    "login",
+    "service"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marshallswain/feathers-accounts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marshallswain/feathers-accounts/issues"
+  },
+  "homepage": "https://github.com/marshallswain/feathers-accounts",
+  "dependencies": {
+    "bcrypt": "^0.8.1",
+    "jwt-simple": "^0.2.0",
+    "mandrill-api": "^1.0.41",
+    "random-string": ">= 0.1.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
