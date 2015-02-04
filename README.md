@@ -1,5 +1,7 @@
 # feathers-accounts
-A FeathersJS plugin for simple user signup & login.  Requires [`feathers-hooks`](https://www.npmjs.com/package/feathers-hooks)
+A FeathersJS plugin for simple user signup & login.  Its goal is to make authentication easy, while making it easy to use [`feathers-hooks`](https://www.npmjs.com/package/feathers-hooks) for access control.
+
+In its current version it only includes the server-side solution.  A drop-in client utility is in the master plan.
 
 ## Getting Started
 
@@ -56,6 +58,10 @@ app.configure(feathers.socketio(function(io){
 ```
 
 ### 4 - Use feathers-hooks for Access Control
+
+// TODO: Finish documenting feathers-hooks
+
+### Bringing it all together
 
 Here is an example server.js file to get you started:
 ```js
