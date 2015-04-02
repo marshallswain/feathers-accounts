@@ -1,6 +1,6 @@
 {
   "name": "feathers-accounts",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "Token-Based User Account System for FeathersJS",
   "main": "lib/index.js",
   "author": {
@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "keywords": [
-    "feathers",
+    "feathers-plugin",
     "REST",
     "Socket.io",
     "real-time",
