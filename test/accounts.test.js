@@ -4,7 +4,7 @@ var needle = require('needle');
 var assert = require('assert');
 var feathers = require('feathers');
 var hooks = require('feathers-hooks');
-var accounts = require('feathers-accounts');
+var accounts = require('../lib/index');
 var bodyParser = require('body-parser');
 
 // Dummy Service for Testing
