@@ -1,4 +1,4 @@
-# feathers-accounts
+# feathers-accounts - DEPRECATED
 A FeathersJS plugin for simple user signup & login.  Its goal is to make authentication easy, while making it easy to use [`feathers-hooks`](https://www.npmjs.com/package/feathers-hooks) for access control.
 
 In its current version it only includes the server-side solution.  A drop-in client utility is in the master plan.
